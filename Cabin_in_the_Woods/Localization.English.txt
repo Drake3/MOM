@@ -1,0 +1,242 @@
+.,English
+TokenExploreWell.button1,Have a look
+EventAddExploreWellToken.button1,Continue
+EventStart.button1,Continue
+EventInvestigators.button1,Continue
+EventStart.text,You arrive at the cabin by the lake. It is night and the sky is overcast with clouds. The water in the lake is calm and dark. Birds have long gone to sleep. Uncomfortable silence fills these woods.\n\nPlace {c:TileLake}.
+EventAddExploreWellToken.text,You cannot see very far through the darkness. You wonder where this path may lead to. \n\nPlace a sight token as indicated.
+TokenExploreWell.text,You cannot see very far through the darkness. You wonder where this path may lead to. 
+EventPlaceWell.text,Place the tile {c:TileWell}.
+EventPlaceWell.button1,Continue
+SpawnCultist.button1,Continue
+TokenExplorePorch.button1,Have a look
+EventPlacePorch.button1,Continue
+EventAddExploreYardToken.text,You cannot see very far through the darkness. You wonder where this path may lead to. \n\nPlace a sight token as indicated.
+EventAddExploreYardToken.button1,Continue
+EventAddExploreShed2Token.text,You cannot see very far through the darkness. You wonder where this path may lead to. \n\nPlace a sight token as indicated.
+EventAddExploreShed2Token.button1,Continue
+TokenMailbox.text,Something has been overgrown by a large bush. 
+TokenMailbox.button1,{action} Investigate
+EventAddMailboxToken.text,Something has been overgrown by large bush. \n\nAdd token as indicated.
+EventAddMailboxToken.button1,Continue
+EventInvestigateMailbox.text,"Overgrown by bushes you find an old mailbox. The mailbox is overflown with old local newspapers. The twenty year old newspaper is barely readable. You can only make out the headline: ""Missing campers presumed dead""\n\nReceive one {clue}.\n\nVictory Condition: Win this scenario by uncovering clues of what happend here."
+EventInvestigateMailbox.button1,Continue
+TokenWell.text,Something is hidden beneath heavy wooden planks. Requires crowbar to remove.
+TokenWell.button1,{action} Remove with crowbar
+EventAddWellToken.text,Something is hidden beneath heavy wooden planks. \n\nPlace a search token as indicated.
+EventAddWellToken.button1,Continue
+EventWellRemovePlanks.text,Even with the crowbar it is hard to remove the planks ({strength}:2).
+EventWellRemovePlanks.button1,Fail
+EventWellRemovePlanks.button2,Success
+EventWellOpeningSuccess.text,You pry away the planks and uncover a deep well. Without a proper light-source, you are not able to see what's down there.
+EventWellOpeningSuccess.button1,Continue
+TokenWell2.text,Without a proper light-source, you are not able to see what's down there.
+TokenWell2.button1,{action} Investigate with light-source
+EventWellLightInvestigation.text,You use the light-source to shine down the well. The well is about 7 meters deep. Within the clear water you can see an old key. You will need a rope to get down there.
+EventWellLightInvestigation.button1,Continue
+TokenWell3.text,The well is about 7 meters deep. Within the clear water you can see an old key. You will need a rope to get down there.
+TokenWell3.button1,{action} Investigate using rope
+EventWellRopeInvestigation.text,You fix the rope at the top of the well and slowly climb down the well. On your way down you notice scratch-marks on the walls of the well. \nThe well itself is not very deep, the water barley reaches to your knees. You are able to grab the key from the bottom of the lake. \n\nTake special item Brass Key.
+EventWellRopeInvestigation.button1,Continue
+TokenExploreShed1.button1,{action} Attempt to pick the lock using {observation}.
+EventAddExploreShed1Token.text,An old wooden door leads to a run down shed. It is locked with an old combination lock.
+EventAddExploreShed1Token.button1,Continue
+EventShed1DoorPuzzleComplete.text,With the last click of the lock you can push the door open. It squeaks as it moves over the old wooden floor.\n\nPlace tile {c:TileShed1} as indicated.
+PuzzleShed1Door.button1,Complete
+EventShed1DoorPuzzleComplete.button1,Continue
+TokenShed1Bench.text,There is an old workbench. It will take you some time to sort through everything which has been piled on here.
+TokenShed1Bench.button1,{action} Investigate
+EventInvestigateWorkbench.text,Among a bunch of useless parts and tools you can find a rope in pretty good shape. \n\nTake regular item Rope.
+EventInvestigateWorkbench.button1,Continue
+TokenShed1Shelf.text,Bottles, Canisters and other old rubbish is cramped into this shelf.
+TokenShed1Shelf.button1,{action} Investigate
+EventShed1InvestigateShelf.text,Among a lot of useless things, you find an axe.\n\nTake regular item: Axe
+EventShed1InvestigateShelf.button1,Continue
+EventShed1AddWorkbenchToken.text,There is an old workbench. It will take you some time to sort through everything which has been piled on here.
+EventShed1AddWorkbenchToken.button1,Continue
+EventShed1AddShelfToken.text,Bottles, Canisters and other old rubbish is cramped into this shelf.
+EventShed1AddShelfToken.button1,Continue
+EventShed1AddGardenDoorToken.text,A wooden door leads to the garden.
+EventShed1AddGardenDoorToken.button1,Continue
+TokenShed1GardenDoor.text,A wooden door leads to the garden.
+TokenShed1GardenDoor.button1,{action} Investigate
+EventShed1GardenDoorInvestigated.text,The door opens. \n\nYou may move into the Garden.
+EventShed1GardenDoorInvestigated.button1,Continue
+TokenExploreShed2.button1,Have a Look
+EventPlaceShed2.text,You find an old wooden shed. Maybe it contains some tools.
+TokenExploreShed2.text,You cannot see very far through the darkness. You wonder where this path may lead to. 
+EventPlaceShed2.button1,Continue
+EventPlaceShed2DoorToken.text,The shed has a rusty metal door.
+EventPlaceShed2DoorToken.button1,Continue
+TokenShed2Door.text,The shed has a rusty metal door.
+TokenShed2Door.button1,{action} Investigate
+EventForceShed2DoorOpen.text,The door is heavily stuck. It takes some serious effort to get it open ({strength}:2}
+EventForceShed2DoorOpen.button1,Fail
+EventForceShed2DoorOpen.button2,Success
+EventShed2DoorOpenSuccess.text,You push the door open. \n\nYou may move into the shed.
+EventShed2DoorOpenSuccess.button1,Continue
+EventShed2PlaceShovel.text,Some of the tools in the corner may still be useful.
+EventShed2PlaceShovel.button1,Continue
+TokenShed2Shovel.text,Some of the tools in the corner may still be useful.
+TokenShed2Shovel.button1,{action} Investigate Tools
+EventShed2TakeShovel.text,Among a lot of broken tools, you find a shovel which is still useful.\n\nTake simple item: Shovel
+EventShed2TakeShovel.button1,Continue
+EventPlaceLightsourceToken.text,Some of the things on the workbench may still be useful.
+EventPlaceLightsourceToken.button1,Continue
+TokenShed2LightsourceToken.text,Some of the things on the workbench may still be useful.
+TokenShed2LightsourceToken.button1,{action} Investigate workbench
+EventShed2TakeLightsource.text,Hidden behind a host of broken things you find a functioning glare-lantern.\n\nTake simple object: Glare-Lantern.
+EventShed2TakeLightsource.button1,Continue
+TokenGardenSightMarkerSouth.text,The yard continues to the north.
+TokenGardenSightMarkerSouth.button1,Take a look
+EventPlaceGardenTile.text,The yard continues into an overgrown garden at the edge of the cabin.\n\nPlace tile {c:TileGarden}
+EventPlaceGardenTile.button1,Continue
+TokenGardenEast.button1,Take a Look
+EventGardenPlaceCrowbarToken.text,There is a crate with old gardening tools.
+TokenGardenEast.text,The yard continues. 
+EventGardenPlaceCrowbarToken.button1,Continue
+TokenGardenCrowbar.text,There is a crate with old gardening tools.
+EventGardenInvestigateCrowbar.text,The crate has been emptied long time ago. However, hidden behind the crate you find the crowbar used to open it.\n\nTake simple object: Crowbar.
+EventGardenInvestigateCrowbar.button1,Continue
+TokenGardenCrowbar.button1,{action} Investigate the crate
+EventBrassKeyUsed.text,With some troubles you manage to unlock the door.\n\nPlace Tile {c:TileCabin}\nPlace the door markers for the garden and porch doors as indicated.\n\nYou may move into the room.
+EventBrassKeyUsed.button1,Continue
+TokenPorchDoorGotKey.text,The door is locked. You need a brass key to open it.
+TokenPorchDoorGotKey.button1,{action} Use brass key
+TokenExplorePorch.text,You cannot see very far through the darkness. You wonder where this path may lead to. 
+EventPlaceporchDoor.text,The Door is locked. You need a brass key to open it.
+TokenPorchPlant.text,There is a dead pot plant on the rotten wooden table. The door key should be inside.
+TokenPorchPlant.button1,{action} Investigate Plant
+EventPorchPlantInvestigation.text,You tear the plant apart, look everywhere, but the key is not there.\n\nYou receive one {clue}.
+EventPorchPlantInvestigation.button1,Continue
+EventPorchPlant.text,A dead plant stands on top of the table, this is where the door key is supposed to be hidden.
+EventPorchPlant.button1,Continue
+EventPlacePorch.text,The porch has seen better days. The plaster is overgrown by moss. The wooden furniture is almost rotten. A dead plant stands on top of the table, this is where the door key is supposed to be hidden.
+EventPlaceporchDoor.button1,Continue
+EventporchWestSight.text,The yard continues to the west.
+EventporchWestSight.button1,Continue
+EventPorchPlaceEastSight.text,The yard continues to the east.
+EventPorchPlaceEastSight.button1,Continue
+TokenPorchEastSight.text,The yard continues to the east.
+TokenPorchEastSight.button1,Take a Look
+TokenCabinBedroomDoor.button1,{action} Investigate
+EventCabinInvestigateBedroom.text,The door opens into a spartanic bedroom.\n\nYou may move to the next field.
+TokenCabinBedroomDoor.text,A shabby wooden door leads to an adjacent room.
+EventCabinInvestigateBedroom.button1,Continue
+TokenTowerDoor.text,A solid wooden door. 
+TokenTowerDoor.button1,{action} Investigate
+EventPlaceTowerTile.text,The door leads into a stairwell, leading up to the tower.\n\nPlace tile: {c:TileBelltower} as indicated.\n\nYou may move into the stairwell.
+EventPlaceTowerTile.button1,Continue
+TokenCabinBasementDoor.text,A rusty iron door.
+TokenCabinBasementDoor.button1,{action} Investigate 
+EventPlaceBasementTile.text,The doors lead into a windowless basement where spiders have spent years to create a maze of webs. \n\nPlace Tile {c:TileBasement} as indicated.\nPlace wall markers as indicated.\n\nYou may move one field into the basement.
+EventPlaceBasementTile.button1,Continue
+EventPlaceBedroomDoor.text,A shabby wooden door.
+EventPlaceBedroomDoor.button1,Continue
+EventPlaceTowerDoor.text,A solid wooden door.
+EventPlaceTowerDoor.button1,Continue
+EventPlaceBasementDoor.text,A rusty metal door.
+EventPlaceBasementDoor.button1,Continue
+EventOldTapes.text,The night-stand drawer seems interesting.
+EventOldTapes.button1,Continue
+TokenNightstandTapes.text,The night-stand drawer looks interesting.
+TokenNightstandTapes.button1,{action} Investigate Night-stand
+EventNightstandInvestigation.text,Inside the night-stand you find:\nSimple object: King James Bible.\nSpecial Object: Locked Box (you can interact with it through the inventory).
+EventNightstandInvestigation.button1,Continue
+EventInspectLockBox.text,The box has about the size of s shoe carton. Its made from old, but solid steel. A combination lock ({observation}) prevents you from opening it.
+EventInspectLockBox.button1,{action} Attempt to pick the lock ({observation}).
+EventLockBoxPuzzleCompleted.text,After some severe effort the box reveals it's secrets. A cold shower runs down your back as you look at the set of old tapes inside. The tapes have been numbered and dated. Numbers run from 1 to 65 and are dated 30 years ago.\n\nEverybody receives one {clue}.
+PuzzleLockBox.button1,Completed
+EventLockBoxPuzzleCompleted.button1,Continue
+EventPlaceDiarryToken.text,There is plenty of papers on the desk. Maybe one of them reveals what has been happening here.
+EventPlaceDiarryToken.button1,Continue
+TokenBedroomDiarry.text,There is plenty of papers on the desk. Maybe one of them reveals what has been happening here.
+TokenBedroomDiarry.button1,{action} Investigate papers
+EventBedroomInvestigatePapers.text,The loose collection of papers seems to be a diary. The initial pages are written in an orderly fashion and speak about studies of a book and its translation from a language unknown to the author of this diary. \nAs the author describes how he progressed with the translation the handwriting gets more and more sloppy. He starts writing about power he hopes to gain.\nThe last readable pages show severe deficits in grammar and spelling. He claims he is close to a breakthrough able to speak the language now.\nThe final pages are only scribble. After staring at it for a while you notice how the scribbles form a grotesque face.\n\nReceive one {clue} and one horror.
+EventBedroomInvestigatePapers.button1,Continue
+EventBasementPlaceCircle.text,A ritual circle has been drawn around a puddle of water.
+EventBasementPlaceCircle.button1,Continue
+TokenBasementCircle.text,A ritual circle has been drawn around a puddle of water.
+TokenBasementCircle.button1,{action} Investigate Circle
+EventBasementInvestigateCircle.text,The circle has been scratched into the clay floor. A hole was dug in the middle and filled with black water, which just as well might have been blood. Whatever ritual was performed here, it was finished a long time ago.\n\nReceive one {clue} and one horror.
+EventBasementInvestigateCircle.button1,Continue
+EventBasementPlaceRecorderToken.text,There is an old Hi-Fi-equipment next to the circle.
+EventBasementPlaceRecorderToken.button1,Continue
+TokenBasementHifiEquipment.text,There is an old Hi-Fi equipment next to the circle.
+TokenBasementHifiEquipment.button1,Investigate HiFi equipment
+EventInvestigateHiFiEquipment1.text,"This compact stereo has never been state of the art nor compact. You wonder if the batteries are still working after all this time. You turn it on and surprisingly they do. \nNext to massive speakers, the stereo only offers a tape deck and radio. The tape deck includes one tape, labelled ""66"". \n\nThe HiFi Equipment offers you two options:"
+EventInvestigateHiFiEquipment1.button1,{action} Play tape forward
+EventInvestigateHiFiEquipment1.button2,{action} Play tape backwards
+TokenBasementHifiEquipmentForward.button1,{action} Stop Tape
+TokenBasementHifiEquipmentForward.button2,{action} Play Tape backwards
+TokenBasementHifiEquipmentForward.text,"You have turned the HiFi-Equipment on. The tape utters the words of a man with a dark voice, calling a force named Cthulhu and preying for his arrival:\n""Oh, Cthulhu the great,\nthere you are on the other side,\nenlighten me with your power,\nshow me your way,\ntake my soul for your pleasure,\nmutilate my body as you desire,\nmake this world your dominion,\nCome, Cthulhu Come!"""
+EventBasementPlayTapeForward.text,"You press the ""play"" button. The tape starts to utter the words of man with a dark voice, calling a force named Cthulhu and preying for his arrival: \n""Oh, Cthulhu the great,\nthere you are on the other side,\nenlighten me with your power,\nshow me your way,\ntake my soul for your pleasure,\nmutilate my body as you desire,\nmake this world your dominion,\nCome, Cthulhu Come!""\n\nThe thought that the ritual has been successful crosses your mind. You briefly imagine what would happen if this Cthulhu is already here. \n\nEverybody receives one {clue}.\nEverybody receives one horror."
+EventBasementPlayTapeForward.button1,Continue
+EventBasementPlayTapeBackwards.text,"You press the ""play"" and ""rewind"" button at the same time. The stereo shrieks, like it is unpleased in performing the function. The words that you hear now sound like they are directly from hell, spoken by the devil incarnate. Blood freezes in your vains, a could shower runs down your spine. Although, you do not understand the words, you can feel how something utterly dark and evil is being called.\nAnd then you hear an echo. Like an answer. \n\nEverybody receives three horrors ({will}-1 negates).\nEverybody turns three hidden horrors."
+EventBasementPlayTapeBackwards.button1,Continue
+TokenBasementHiFiEquipmentBackwards.text,The words that you here now sound like they are directly from hell, spoken by the devil incarnate. Blood freezes in your veins, a cold shower runs down your spine. Although, you do not understand the word, you can feel how something utterly dark and evil is being called.\nAnd then you hear an echo. Like an answer. 
+TokenBasementHiFiEquipmentBackwards.button1,{action} Play Tape Forward
+TokenBasementHiFiEquipmentBackwards.button2,{action} Stop Tape
+EventBasementStopTapeFromBackwards.text,In utter panic you hit the stop button. While the stereo shuts down instantly, the echo still remains. \n\nYour panic rises. Everybody receives one horror.
+EventBasementStopTapeFromBackwards.button1,Continue
+EventBasementStopTapeFromForward.text,After you have listened enough you stop the tape.
+EventBasementStopTapeFromForward.button1,Continue
+SpawnBasement1stHuntingHorror.text,A horrific creature crawls out of the pool, answering the call. 
+SpawnWell1stDeepOne.text,Now you know why the well was sealed. Another unspeakable horror climbs out of it. 
+SpawnBasement2ndHuntingHorror.text,At first you are afraid that almighty Cthulhu himself could appear. But than you are actually relieved to see another one of the same kind...
+SpawnLakeStarSpawn.button1,Continue
+SpawnWell2ndDeepOne.text,And his brother.
+EventWinConditionNotification.text,Seeing the never ending stream of monsters creeping out of the dark waters you realize there is only one thing to win today: Your lives. \n\nHowever, you feel responsible for what happend. You dare not to leave without taking the book with you that has caused all this.\n\nWin this scenario by finding the Unholy Book and making it to safety.
+SpawnLakeStarSpawn.text,Just when you thought it could not get any worse a massive monster makes its way out of the lake.
+EventWinConditionNotification.button1,Continue
+TokenSafety.text,You have won, once all players and the Unholy Book have reached this field.
+TokenSafety.button1,Victory: All here
+EventEndLoose.text,You have been eliminated. You lost!
+EventEndLoose.button1,Continue
+EventInvestigateHiFiEquipment1.button3,Cancel
+SpawnBasement1stHuntingHorror.button1,Continue
+SpawnBasement2ndHuntingHorror.button1,Continue
+SpawnWell1stDeepOne.button1,Continue
+SpawnWell2ndDeepOne.button1,Continue
+quest.description,Word from the developer: This is my first attempt on a quest for this game. Initial focus in the development is to get the story and the balancing straight. If that results in a pleasing quest, I will fix some game-play issues later.\nIf all goes well I will use this quest as the first of a trilogy.\n\nPrologue: After investigating so many mysterious cases like you have, you deserve a vacation. One of your uncles has a cabin in the woods. Nobody has been there in a long time and he gratiously allowed you to spend the weekend there. It is located at a clearance in a forest near a small lake. \n\nAfter your arrival you notice that the place has seen better days. Plants have overgrown vast parts of the property. \n\nYou uncle has told you that he hides the key in potted plant on the porch of the cabin. 
+quest.synopsys,Vacation time. The investigators lent a nice cabin in the woods. Little do they know what's within..
+EventPlaceRandomItem.text,An old crate with various items inside. Maybe you can find something valuable.
+EventPlaceRandomItem.button1,Continue
+TokenRandomItem1.text,An old crate with various items inside. Maybe you can find something valuable.
+TokenRandomItem1.button1,{action} Investigate
+EventInvestigateRandom1.text,You find something.
+EventInvestigateRandom1.button1,Continue
+EventPlaceRandom2.text,There is some equipment at the top of the tower.
+EventPlaceRandom2.button1,Continue
+TokenRandomItem2.button1,{action} Investigate
+EventInvestigateRandom2.button1,Continue
+EventInvestigateRandom2.text,You find something interesting.
+quest.name,Cabin in the Woods (v0.2)
+EventBasementPlaceBook.text,Something has been carefully wrapped in linen cloth and placed on some sort of table.
+EventBasementPlaceBook.button1,Continue
+TokenBasementBook.text,Something has been carefully wrapped in linen cloth and placed on some sort of table.
+TokenBasementBook.button1,{action} Investigate
+EventBasementBookInvestigate.text,Carefully protected by the linen you find the Unholy Book. It is massive and bound in leather. The leather is not like any leather you have ever seen. It feels soft like human skin. A title is imprinted on the cover, in a language you do not understand.\n\nJust being in the presence of the Unholy Book, forbodes something unholy and evil. You receive one horror.
+EventBasementBookInvestigate.button1,Continue
+EventUnholyBookInspect.text,You skim through the pages of the Unholy Book searching for clues or information. If you chose to investigate you need to understand what's written within ({lore}:3).
+EventUnholyBookInspect.button1,{action} Read in the Unholy Book
+EventUnholyBookInspect.button2,Cancel
+EventUnholyBookReadTest.text,You select a chapter and try to get smarter by what's written there. The language is very hard to understand ({lore}:3).
+EventUnholyBookReadTest.button1,Success
+EventUnholyBookReadTest.button2,Fail
+EventUnholyBookReadFail.text,After reading in it for a while you come to the conclusion that it is just gibberish. 
+EventUnholyBookReadFail.button1,Continue
+EventUnholyBookReadSuccess.text,The pages reveal a new spell to you. \n\nThe new power comes with a price receive 3 horrors ({will} negates).\nReveal 1 horror.
+EventUnholyBookReadSuccess.button1,Continue
+TokenPorchDoorNoKey.text,The Doors is locked. You need a key to open it.
+TokenPorchDoorNoKey.button1,Continue
+TokenRandomItem2.text,There is some equipment at the top of the tower.
+EventEndVictory.text,Running for your lives you finally made it back to the car. You jump in quickly, throw the Unholy Book on the back seat and hit the gas. In the rear-view mirror you see the massive demon hunting you. \n\nAlthough you are revealed as the reflection of the creature gets smaller and smaller you know: This ain't over yet.\n\nTo be continued...
+EventEndVictory.button1,Continue
+TokenSafety.button2,Not there yet
+TokenCabinEvidence.text,There is a cardboard box on the table counter. It seems to be one of the last items in this room, which has ever been used.
+TokenCabinEvidence.button1,{action} Investigate
+EventCabinInvestigateEvidenceResult.text,The box contains, black candles, empty bottles and other occult items. 
+EventCabinInvestigateEvidenceResult.button1,Continue
+EventCabinPlaceEvidence.text,There is a cardboard box on the table counter. It seems to be one of the last items in this room, which has ever been used.
+EventCabinPlaceEvidence.button1,Continue
