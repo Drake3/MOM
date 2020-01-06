@@ -1,9 +1,9 @@
 .,English
 TokenExploreWell.button1,Have a look
 EventAddExploreWellToken.button1,Continue
-EventStart.button1,Continue
+EventStart.button1,EASY - I am new to this  (3 Stars)
 EventInvestigators.button1,Continue
-EventStart.text,You arrive at the cabin by the lake. It is night and the sky is overcast with clouds. The water in the lake is calm and dark. Birds have long gone to sleep. Uncomfortable silence fills these woods.\n\nPlace {c:TileLake}.
+EventStart.text,Each investigator starts the game with 2 {clue}.\n\nPlease Select your difficulty Level:
 EventAddExploreWellToken.text,You cannot see very far through the darkness. You wonder where this path may lead to. \n\nPlace a sight token as indicated.
 TokenExploreWell.text,You cannot see very far through the darkness. You wonder where this path may lead to. 
 EventPlaceWell.text,Place the tile {c:TileWell}.
@@ -19,7 +19,7 @@ TokenMailbox.text,Something has been overgrown by a large bush.
 TokenMailbox.button1,{action} Investigate
 EventAddMailboxToken.text,Something has been overgrown by large bush. \n\nAdd token as indicated.
 EventAddMailboxToken.button1,Continue
-EventInvestigateMailbox.text,"Overgrown by bushes you find an old mailbox. The mailbox is overflown with old local newspapers. The twenty year old newspaper is barely readable. You can only make out the headline: ""Missing campers presumed dead""\n\nReceive one {clue}.\n\nVictory Condition: Win this scenario by uncovering clues of what happend here."
+EventInvestigateMailbox.text,"Overgrown by bushes you find an old mailbox. The mailbox is overflown with old local newspapers. The twenty year old newspaper is barely readable. You can only make out some parts of the text: ""Professor of the occult presumed dead. Renowned professor Charles Vanderbilt has been announced dead, after being missing for several month. The professor, who was known for his secrecy left three month ago to study the occult “in a quiet and secluded place”, as his son, James Vanderbilt, stated. “\n\nReceive one {clue}.\n\nVictory Condition: Win this scenario by uncovering clues of what happened here.\n"
 EventInvestigateMailbox.button1,Continue
 TokenWell.text,Something is hidden beneath heavy wooden planks. Requires crowbar to remove.
 TokenWell.button1,{action} Remove with crowbar
@@ -42,7 +42,6 @@ TokenExploreShed1.button1,{action} Attempt to pick the lock using {observation}.
 EventAddExploreShed1Token.text,An old wooden door leads to a run down shed. It is locked with an old combination lock.
 EventAddExploreShed1Token.button1,Continue
 EventShed1DoorPuzzleComplete.text,With the last click of the lock you can push the door open. It squeaks as it moves over the old wooden floor.\n\nPlace tile {c:TileShed1} as indicated.
-PuzzleShed1Door.button1,Complete
 EventShed1DoorPuzzleComplete.button1,Continue
 TokenShed1Bench.text,There is an old workbench. It will take you some time to sort through everything which has been piled on here.
 TokenShed1Bench.button1,{action} Investigate
@@ -85,7 +84,7 @@ EventPlaceLightsourceToken.text,Some of the things on the workbench may still be
 EventPlaceLightsourceToken.button1,Continue
 TokenShed2LightsourceToken.text,Some of the things on the workbench may still be useful.
 TokenShed2LightsourceToken.button1,{action} Investigate workbench
-EventShed2TakeLightsource.text,Hidden behind a host of broken things you find a functioning glare-lantern.\n\nTake simple object: Glare-Lantern.
+EventShed2TakeLightsource.text,Hidden behind a host of broken things you find a functioning lantern.\n\nTake simple object: Bull's-eye lantern.
 EventShed2TakeLightsource.button1,Continue
 TokenGardenSightMarkerSouth.text,The yard continues to the north.
 TokenGardenSightMarkerSouth.button1,Take a look
@@ -123,12 +122,12 @@ TokenCabinBedroomDoor.button1,{action} Investigate
 EventCabinInvestigateBedroom.text,The door opens into a spartanic bedroom.\n\nYou may move to the next field.
 TokenCabinBedroomDoor.text,A shabby wooden door leads to an adjacent room.
 EventCabinInvestigateBedroom.button1,Continue
-TokenTowerDoor.text,A solid wooden door. 
-TokenTowerDoor.button1,{action} Investigate
+TokenTowerDoor.text,A solid wooden door. It looks heavily stuck. You need an axe to smash it.
+TokenTowerDoor.button1,{action} Smash with Axe
 EventPlaceTowerTile.text,The door leads into a stairwell, leading up to the tower.\n\nPlace tile: {c:TileBelltower} as indicated.\n\nYou may move into the stairwell.
 EventPlaceTowerTile.button1,Continue
-TokenCabinBasementDoor.text,A rusty iron door.
-TokenCabinBasementDoor.button1,{action} Investigate 
+TokenCabinBasementDoor.text,A rusty iron door. You need a key to open it.
+TokenCabinBasementDoor.button1,{action} Open with silver key 
 EventPlaceBasementTile.text,The doors lead into a windowless basement where spiders have spent years to create a maze of webs. \n\nPlace Tile {c:TileBasement} as indicated.\nPlace wall markers as indicated.\n\nYou may move one field into the basement.
 EventPlaceBasementTile.button1,Continue
 EventPlaceBedroomDoor.text,A shabby wooden door.
@@ -145,14 +144,13 @@ EventNightstandInvestigation.text,Inside the night-stand you find:\nSimple objec
 EventNightstandInvestigation.button1,Continue
 EventInspectLockBox.text,The box has about the size of s shoe carton. Its made from old, but solid steel. A combination lock ({observation}) prevents you from opening it.
 EventInspectLockBox.button1,{action} Attempt to pick the lock ({observation}).
-EventLockBoxPuzzleCompleted.text,After some severe effort the box reveals it's secrets. A cold shower runs down your back as you look at the set of old tapes inside. The tapes have been numbered and dated. Numbers run from 1 to 65 and are dated 30 years ago.\n\nEverybody receives one {clue}.
-PuzzleLockBox.button1,Completed
+EventLockBoxPuzzleCompleted.text,After some severe effort the box reveals it's secrets. A cold shower runs down your back as you look at the set of old tapes inside. The tapes have been numbered and dated. Numbers run from 1 to 65 and are dated 30 years ago.\n\nEverybody receives one {clue}.\n\nYou receive the Tapes as Circumstancial Evidence.
 EventLockBoxPuzzleCompleted.button1,Continue
 EventPlaceDiarryToken.text,There is plenty of papers on the desk. Maybe one of them reveals what has been happening here.
 EventPlaceDiarryToken.button1,Continue
 TokenBedroomDiarry.text,There is plenty of papers on the desk. Maybe one of them reveals what has been happening here.
 TokenBedroomDiarry.button1,{action} Investigate papers
-EventBedroomInvestigatePapers.text,The loose collection of papers seems to be a diary. The initial pages are written in an orderly fashion and speak about studies of a book and its translation from a language unknown to the author of this diary. \nAs the author describes how he progressed with the translation the handwriting gets more and more sloppy. He starts writing about power he hopes to gain.\nThe last readable pages show severe deficits in grammar and spelling. He claims he is close to a breakthrough able to speak the language now.\nThe final pages are only scribble. After staring at it for a while you notice how the scribbles form a grotesque face.\n\nReceive one {clue} and one horror.
+EventBedroomInvestigatePapers.text,The loose collection of papers seems to be the diary of Chalres Vanderbilt. The initial pages are written in an orderly fashion and speak about studies of a book and its translation from a language unknown to the author of this diary. \nAs Charles Vanderbilt describes how he progressed with the translation the handwriting gets more and more sloppy. He starts writing about power he hopes to gain.\nThe last readable pages show severe deficits in grammar and spelling. He claims he is close to a breakthrough able to speak the language now.\nThe final pages are only scribble. After staring at it for a while you notice how the scribbles form a grotesque face.\n\nReceive one {clue} and one horror.\n\nYou receive the stack of papers as Conclusive Evidence.
 EventBedroomInvestigatePapers.button1,Continue
 EventBasementPlaceCircle.text,A ritual circle has been drawn around a puddle of water.
 EventBasementPlaceCircle.button1,Continue
@@ -172,7 +170,7 @@ TokenBasementHifiEquipmentForward.button2,{action} Play Tape backwards
 TokenBasementHifiEquipmentForward.text,"You have turned the HiFi-Equipment on. The tape utters the words of a man with a dark voice, calling a force named Cthulhu and preying for his arrival:\n""Oh, Cthulhu the great,\nthere you are on the other side,\nenlighten me with your power,\nshow me your way,\ntake my soul for your pleasure,\nmutilate my body as you desire,\nmake this world your dominion,\nCome, Cthulhu Come!"""
 EventBasementPlayTapeForward.text,"You press the ""play"" button. The tape starts to utter the words of man with a dark voice, calling a force named Cthulhu and preying for his arrival: \n""Oh, Cthulhu the great,\nthere you are on the other side,\nenlighten me with your power,\nshow me your way,\ntake my soul for your pleasure,\nmutilate my body as you desire,\nmake this world your dominion,\nCome, Cthulhu Come!""\n\nThe thought that the ritual has been successful crosses your mind. You briefly imagine what would happen if this Cthulhu is already here. \n\nEverybody receives one {clue}.\nEverybody receives one horror."
 EventBasementPlayTapeForward.button1,Continue
-EventBasementPlayTapeBackwards.text,"You press the ""play"" and ""rewind"" button at the same time. The stereo shrieks, like it is unpleased in performing the function. The words that you hear now sound like they are directly from hell, spoken by the devil incarnate. Blood freezes in your vains, a could shower runs down your spine. Although, you do not understand the words, you can feel how something utterly dark and evil is being called.\nAnd then you hear an echo. Like an answer. \n\nEverybody receives three horrors ({will}-1 negates).\nEverybody turns three hidden horrors."
+EventBasementPlayTapeBackwards.text,"You press the ""play"" and ""rewind"" button at the same time. The stereo shrieks, like it is unpleased in performing the function. The words that you hear now sound like they are directly from hell, spoken by the devil incarnate. Blood freezes in your vains, a could shower runs down your spine. Although, you do not understand the words, you can feel how something utterly dark and evil is being called.\nAnd then you hear an echo. Like an answer. \n\nEverybody receives three horrors ({will}-1 negates).\nEverybody turns three hidden horrors.\n\nNow, that you know what the tape actually does, you have Incriminating Evidence to what the professor did here."
 EventBasementPlayTapeBackwards.button1,Continue
 TokenBasementHiFiEquipmentBackwards.text,The words that you here now sound like they are directly from hell, spoken by the devil incarnate. Blood freezes in your veins, a cold shower runs down your spine. Although, you do not understand the word, you can feel how something utterly dark and evil is being called.\nAnd then you hear an echo. Like an answer. 
 TokenBasementHiFiEquipmentBackwards.button1,{action} Play Tape Forward
@@ -183,9 +181,9 @@ EventBasementStopTapeFromForward.text,After you have listened enough you stop th
 EventBasementStopTapeFromForward.button1,Continue
 SpawnBasement1stHuntingHorror.text,A horrific creature crawls out of the pool, answering the call. 
 SpawnWell1stDeepOne.text,Now you know why the well was sealed. Another unspeakable horror climbs out of it. 
-SpawnBasement2ndHuntingHorror.text,At first you are afraid that almighty Cthulhu himself could appear. But than you are actually relieved to see another one of the same kind...
+SpawnBasement2ndHuntingHorror.text,At first you were afraid that almighty Cthulhu himself could appear. But than you are actually relieved to see another one of the same kind.
 SpawnLakeStarSpawn.button1,Continue
-SpawnWell2ndDeepOne.text,And his brother.
+SpawnWell2ndDeepOne.text,And another one.
 EventWinConditionNotification.text,Seeing the never ending stream of monsters creeping out of the dark waters you realize there is only one thing to win today: Your lives. \n\nHowever, you feel responsible for what happend. You dare not to leave without taking the book with you that has caused all this.\n\nWin this scenario by finding the Unholy Book and making it to safety.
 SpawnLakeStarSpawn.text,Just when you thought it could not get any worse a massive monster makes its way out of the lake.
 EventWinConditionNotification.button1,Continue
@@ -193,13 +191,13 @@ TokenSafety.text,You have won, once all players and the Unholy Book have reached
 TokenSafety.button1,Victory: All here
 EventEndLoose.text,You have been eliminated. You lost!
 EventEndLoose.button1,Continue
-EventInvestigateHiFiEquipment1.button3,Cancel
+EventInvestigateHiFiEquipment1.button3,{action} Destroy Tape
 SpawnBasement1stHuntingHorror.button1,Continue
 SpawnBasement2ndHuntingHorror.button1,Continue
 SpawnWell1stDeepOne.button1,Continue
 SpawnWell2ndDeepOne.button1,Continue
-quest.description,Word from the developer: This is my first attempt on a quest for this game. Initial focus in the development is to get the story and the balancing straight. If that results in a pleasing quest, I will fix some game-play issues later.\nIf all goes well I will use this quest as the first of a trilogy.\n\nPrologue: After investigating so many mysterious cases like you have, you deserve a vacation. One of your uncles has a cabin in the woods. Nobody has been there in a long time and he gratiously allowed you to spend the weekend there. It is located at a clearance in a forest near a small lake. \n\nAfter your arrival you notice that the place has seen better days. Plants have overgrown vast parts of the property. \n\nYou uncle has told you that he hides the key in potted plant on the porch of the cabin. 
-quest.synopsys,Vacation time. The investigators lent a nice cabin in the woods. Little do they know what's within..
+quest.description,"Word from the developer: This is the first part of the ""Horror haunts"" triology. You get to chose from three difficulty levels, which influence number of monsters and complexitiy of puzzles. An easy setting you should have no trouble winning. Let me know if you win in hard setting.\n\nPrologue: After investigating so many mysterious cases like you have, you deserve a vacation. One of your uncles has a cabin in the woods. Nobody has been there in a long time and he gratiously allowed you to spend the weekend there. It is located at a clearance in a forest near a small lake. \n\nAfter your arrival you notice that the place has seen better days. Plants have overgrown vast parts of the property. \n\nYour uncle has told you that he hides the key in potted plant on the porch of the cabin. \n\nKnwon Issues (any help in fixing them is welcome):\n- Sight marker in the outdoor area are not removed properly. "
+quest.synopsys,The investigators spend their vaction in a cabin in the woods. Scenario offers 3 difficulty levels.
 EventPlaceRandomItem.text,An old crate with various items inside. Maybe you can find something valuable.
 EventPlaceRandomItem.button1,Continue
 TokenRandomItem1.text,An old crate with various items inside. Maybe you can find something valuable.
@@ -211,7 +209,7 @@ EventPlaceRandom2.button1,Continue
 TokenRandomItem2.button1,{action} Investigate
 EventInvestigateRandom2.button1,Continue
 EventInvestigateRandom2.text,You find something interesting.
-quest.name,Cabin in the Woods (v0.2)
+quest.name,Horror Haunts a Cabin in the Woods (v1.0)
 EventBasementPlaceBook.text,Something has been carefully wrapped in linen cloth and placed on some sort of table.
 EventBasementPlaceBook.button1,Continue
 TokenBasementBook.text,Something has been carefully wrapped in linen cloth and placed on some sort of table.
@@ -240,3 +238,48 @@ EventCabinInvestigateEvidenceResult.text,The box contains, black candles, empty 
 EventCabinInvestigateEvidenceResult.button1,Continue
 EventCabinPlaceEvidence.text,There is a cardboard box on the table counter. It seems to be one of the last items in this room, which has ever been used.
 EventCabinPlaceEvidence.button1,Continue
+EventStart.button2,MEDIUM - I know what I am doing (4 Stars)
+EventStart.button3,HARD - Bring it on! (5 Stars)
+EventSetDifficultyEasy.text,Easy Difficulty chosen.
+EventSetDifficultyEasy.button1,Continue
+EventSetDifficultyMedium.text,Medium Difficulty Set - Have fun.
+EventSetDifficultyMedium.button1,Continue
+EventSetDifficultyHard.text,Hard difficulty selected. You asked for it!
+EventSetDifficultyHard.button1,Continue
+EventInvestigators.text,Place your investigators here.
+EventPlaceProchDoor.button1,Continue
+EventPlaceProchDoor.text,The door is locked. You need a key.
+EventProchWestSight.text,The yard continues to the west.
+EventProchWestSight.button1,Continue
+EventInvestigateHiFiEquipment1.button4,Cancel
+EventEndDestoryTapes.text,You take out the tape and destroy it. You are convinced that you have protected the world of something utterly dangerous, you have also destroyed the most incriminating evidence you had to tie Professor Charles Vanderbilt to summoning horrors. \n\nYou have reached an alternate ending.\n\n
+EventEndDestoryTapes.button1,End Game
+SpawnLakeHybrid1.text,Since you have asked for it, more horrors crawl out of the lake.
+SpawnLakeHybrid1.button1,Continue
+SpawnLakeHybrid2.text,Since you have asked for it, more horrors crawl out of the lake. Place a second Deep-One Hybrid.
+SpawnLakeHybrid2.button1,Continue
+EventBedroomAddSilverKeyToken.text,Maybe you can find something in this sideboard.
+EventBedroomAddSilverKeyToken.button1,Continue
+TokenBedroomSilverKey.text,Maybe you can find something in this sideboard.
+TokenBedroomSilverKey.button1,{action} Investigate
+EventBedroomSilverKeyInvestigate.text,You look through the sideboard. Among old socks you find a silver key.
+EventBedroomSilverKeyInvestigate.button1,Continue
+TokenExploreShed1.text,The shed door is locked, with an old lock.
+PuzzleShed1Medium.button1,Complete
+PuzzlePuzzelShed1DoorEasy.button1,Complete
+PuzzleShed1DoorHard.button1,Complete
+EventEndDestoryTapes.button2,Never Mind - Let's try something else
+EventEnd.text,GAME OVER
+EventEnd.button1,Continue
+TokenWellExplorePorch.text,Yard Coninues to the here.
+TokenWellExplorePorch.button1,Continue
+PuzzleLockBoxEasy.button1,Completed
+PuzzleLockBoxMedium.button1,Guess
+PuzzleLockBoxHard.button1,Guess
+EventCabinPlaceBarricade.text,This shelf could be used as a barricade.
+EventCabinPlaceBarricade.button1,Continue
+TokenCabinBarricade.button1,Continue
+TokenCabinBarricade.text,This shelf could be used as a barricade.
+EventPlaceLake.button1,Continue
+EventPlaceLake.text,You arrive at the cabin by the lake. It is night and the sky is overcast with clouds. The water in the lake is calm and dark. Birds have long gone to sleep. Uncomfortable silence fills these woods.\n\nPlace {c:TileLake}.
+quest.authors,Dr.ake
